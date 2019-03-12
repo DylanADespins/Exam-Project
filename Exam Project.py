@@ -26,5 +26,3 @@ try:
         print ("Enter (1) or (2)")
 except ValueError:
     print("Use one of the two numbers")
-
-
