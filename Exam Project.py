@@ -1,13 +1,6 @@
 # Dylan Despins
 # 3/7/19
 
-name = input("What is your name: ")
-
-def greeting():
-    print("Hi there " + name + "!")
-    print("Nice to meet you!")
-
-greeting()
 
 '''
 The first part of the story starts here
