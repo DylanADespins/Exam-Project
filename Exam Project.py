@@ -42,8 +42,18 @@ while who_will_you_follow == 1:
         the_right_choice = input("\n" "It seems to be harmful and could burn down another village, should you slay the dragon? (yes/no)")
         if the_right_choice == ("yes"):
             print("\n"" You move in to slash it with your sword and its mother appears deeper in the cave, and you now understand this is not a mission for you to complete")
-            print("\n""You are now seen as dead in the kingdom you once served as you never returned from the mission and live in the forest and are one with the animals")
+            print("\n""You are now known as dead in the kingdom you once served as you never returned from the mission and live in the forest and are one with the animals")
 
 while who_will_you_follow == 2:
-    print("")
-
+    print("\n""The Elfish Child had been defending the village from the bandits for a few hours and finally the action died down.")
+    print("\n""The village offers you a gift for protecting them from the bandits, but they have you pick from two chests and you don't know what is in either one of them, all you know is that they both have a item of value in it.))
+    the_reward = input("Which chest will you choose? The chest to the left or the chest to the right, some reason the villagers are more directly pointing toward the one to the right.(r/l)")
+    if the_reward == r:
+          print ("\n""The villagers rewarded you with something of value from all of the villagers, a village of blacksmithes and shopkeepers gave you a mighty sword that they had spent days making before the raid of the bandits")
+          print ("\n""This sword gave a very mysterious presence, you slash it around in a field of grass and started to speak to you.")
+          break
+    if the_reward == l:
+          print ("\n"" The villagers rewarded you with a lot of cash, a village of blacksmithes and shopkeepers, you assume the other chest had a sword of some sorts or something.")
+          print ("\n"" You still feel like you did the right thing, but the other chest will always be on your mind from here on")
+          break
+     
