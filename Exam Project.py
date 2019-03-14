@@ -87,7 +87,7 @@ if who_will_you_follow == 2:
 
     if the_reward == ("r"):
         print("You run into a bandit that was abandoned by the others and he aggressively runs toward you with his sword.")
-        dodging_slashes = int(input("The bandit slashes at you a total of 3 times. How many times do you want to dodge(2 or 3?"))
+        dodging_slashes = int(input("The bandit slashes at you a total of 3 times. How many times do you want to dodge(2 or 3)?"))
         for i in range(dodging_slashes):
             if dodging_slashes == 2:
                 print("\n""You successfully dodge 2 of the bandits foul swoops toward you but the other one went quite deep")
