@@ -1,6 +1,9 @@
-# Dylan Despins
-# 3/7/19
-# introduction to the project with greeting
+'''
+Dylan Despins
+3/7/19
+Text Based Adventure
+Juan and Alvaro helped with ValueError
+'''
 name = input("What is your name: ")
 
 def greeting():
@@ -18,7 +21,7 @@ print('\n''The same elfish man, only a young child now, adventured the lands of 
 
 
 '''
-Below decides which story will be followed and tells bits and pieces in each part
+Below decides which story will be followed and tells bits and pieces in each part 
 '''
 try:
     who_will_you_follow = int(input("\n" "Who will you follow? The 17 year old Elfish Man(1) or the 12 year old Elfish Child(2)."))
@@ -31,13 +34,13 @@ try:
 
     if who_will_you_follow == (1):
         print("Your Choice: " + str(who_will_you_follow) + " (Elfish Man)")
-        print("The Young Elfish Man was sent out to fight off a dragon as a duty for the Kingdom")
+        print("\n""The Young Elfish Man was sent out to fight off a dragon as a duty for the Kingdom")
 # Elfish Child story
 
 
     if who_will_you_follow == (2):
         print("Your Choice: " + str(who_will_you_follow) + " (Elfish Child)")
-        print("The Young Elfish Child was saving the village of Tarnace from hundreds of thieves and bandits attacking after walking the dangerous lands of Termina.")
+        print("\n""The Young Elfish Child was saving the village of Tarnace from hundreds of thieves and bandits attacking after walking the dangerous lands of Termina.")
 
 except ValueError:
     print("Use one of the two numbers")
@@ -55,7 +58,7 @@ while who_will_you_follow == 1:
         if the_right_choice == ("yes"):
             print("\n"" You move in to slash it with your sword and its mother appears deeper in the cave, and you now understand this is not a mission for you to complete.")
             print("\n""You are now known as dead in the kingdom you once served as you never returned from the mission and live in the forest and are one with the animals.")
-            print("Later in life, the elfish man will start a family and make a community of his own where there are shops, blacksmithes, restaurants, bars, etc. in the area.")
+            print("\n""Later in life, the elfish man will start a family and make a community of his own where there are shops, blacksmithes, restaurants, bars, etc. in the area.")
             break
 # End of Elfish Man Story line
 if who_will_you_follow == 1:
