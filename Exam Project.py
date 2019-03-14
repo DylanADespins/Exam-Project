@@ -1,16 +1,25 @@
 # Dylan Despins
 # 3/7/19
 
+name = input("What is your name: ")
+
+def greeting():
+    print("Hi there " + name + "!")
+    print("Welcome to my text based adventure project.")
+
+greeting()
 
 '''
 The first part of the story starts here
 If the person doesn't answer with 1 or 2 (Elfish Man or Elfish Child) it will end the program and say Enter (1) or (2) or Use one of the two numbers if they don't use an integer.
 '''
-print('An elfish man, in the medieval times where dragons and wizards still existed, was forced to join the Knights of the Blood Oath.')
-print('The same elfish man, only a young child now, adventured the lands of Termina.')
+print('\n''An elfish man, in the medieval times where dragons and wizards still existed, was forced to join the Knights of the Blood Oath.')
+print('\n''The same elfish man, only a young child now, adventured the lands of Termina.')
 
 
-
+'''
+Below decides which story will be followed and tells bits and pieces in each part
+'''
 try:
     who_will_you_follow = int(input("\n" "Who will you follow? The 17 year old Elfish Man(1) or the 12 year old Elfish Child(2)."))
 # Elfish Man Story
@@ -38,6 +47,8 @@ while who_will_you_follow == 1:
     your_own_pet = (input("\n""While it is a baby it still burnt down an entire village. Will you take it in with you on your adventures? (yes/no)"))
     if your_own_pet == ("yes"):
         print ("\n""You move in to try and comfort and tame it, but it rejects your offer and bursts a firey flame towards you.")
+        print("\n""You are now known as dead in the kingdom you once served as you never returned from the mission and live in the forest and are one with the animals.")
+        print("\n""Later in life, the elfish man will start a family and make a community of his own where there are shops, blacksmithes, restaurants, bars, etc. in the area.")
         break
     else:
         the_right_choice = input("\n" "It seems to be harmful and could burn down another village, should you slay the dragon? (yes/no)")
@@ -48,7 +59,7 @@ while who_will_you_follow == 1:
             break
 # End of Elfish Man Story line
 if who_will_you_follow == 1:
-    print("Thank you for reading the story of an Elfish Man that was forced into working for the kingdom and only wanted to live in harmony.")
+    print("\n""Thank you for reading the story of an Elfish Man that was forced into working for the kingdom and only wanted to live in harmony.")
 
 
 #More to Elfish Child Story line
