@@ -79,7 +79,7 @@ while who_will_you_follow == 2:
 # End of part of Elfish Child Story line if user typed in left or l
 if who_will_you_follow == 2:
     if the_reward == ("l"):
-        print("The child upgraded his equipment at the village with the money he achieved and grew up while saving other villages with more rewards.")
+        print("\n""The child upgraded his equipment at the village with the money he achieved and grew up while saving other villages with more rewards.")
 
 
     if the_reward == ("r"):
@@ -87,13 +87,14 @@ if who_will_you_follow == 2:
         dodging_slashes = int(input("The bandit slashes at you a total of 3 times. How many times do you want to dodge(2 or 3?"))
         for i in range(dodging_slashes):
             if dodging_slashes == 2:
-                print("You successfully dodge 2 of the bandits foul swoops toward you but the other one went quite deep")
-                print("You slash back, but he notices that you are just a kid and he is pure of heart, stops you and requests that he helps you with your wound.")
+                print("\n""You successfully dodge 2 of the bandits foul swoops toward you but the other one went quite deep")
+                print("\n""You slash back, but he notices that you are just a kid and he is pure of heart, stops you and requests that he helps you with your wound.")
+                break
             if dodging_slashes == 3:
-                print("You successfully dodge the 3 slashes and pin him down and take his sword you get the villagers out to help you out and put him in jail.")
-                print("You are used to the new sword now and it speaks to you to help anyone you can, teaching you to spread peace to other villages and stop anyone that tries to violate peace.")
+                print("\n""You successfully dodge the 3 slashes and pin him down and take his sword you get the villagers out to help you out and put him in jail.")
+                print("\n""You are used to the new sword now and it speaks to you to help anyone you can, teaching you to spread peace to other villages and stop anyone that tries to violate peace.")
                 break
 
 if who_will_you_follow == 2:
-    print("Thank you for reading the story of an Elfish Child that was protecting the village from bandits and wanted peace across the land.")
+    print("\n""Thank you for reading the story of an Elfish Child that was protecting the village from bandits and wanted peace across the land.")
 # End of Elfish Child Story line if user typed in right or r
