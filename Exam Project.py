@@ -1,6 +1,6 @@
 # Dylan Despins
 # 3/7/19
-
+# introduction to the project with greeting
 name = input("What is your name: ")
 
 def greeting():
@@ -62,7 +62,7 @@ if who_will_you_follow == 1:
     print("\n""Thank you for reading the story of an Elfish Man that was forced into working for the kingdom and only wanted to live in harmony.")
 
 
-#More to Elfish Child Story line
+# More to Elfish Child Story line
 while who_will_you_follow == 2:
     print("\n""The Elfish Child had been defending the village from the bandits for a few hours and finally the action died down.")
     print("\n""The village offers you a gift for protecting them from the bandits, but they have you pick from two chests and you don't know what is in either one of them, all you know is that they both have a item of value in it.")
@@ -96,4 +96,4 @@ if who_will_you_follow == 2:
 
 if who_will_you_follow == 2:
     print("Thank you for reading the story of an Elfish Child that was protecting the village from bandits and wanted peace across the land.")
-#End of Elfish Child Story line if user typed in right or r
+# End of Elfish Child Story line if user typed in right or r
